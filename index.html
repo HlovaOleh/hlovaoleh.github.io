@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="Портфоліо">
+    <meta name="description" content="Тут ви зможете дізнатись більше про мене">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="black"/>
+                </svg>
+            </div>
+
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#about">ПРО МЕНЕ</a></li>
+                    <li class="menu__link"><a href="#resume">МІЙ ДОСВІД</a></li>
+                    <li class="menu__link"><a href="#skills">МОЇ НАВИКИ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТИ</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu__social">
+                <a href="https://github.com/HlovaOleh">
+                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37317 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37317 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z" fill="#212121"/>
+                    </svg>                        
+                </a>
+                <a href="https://www.instagram.com/redmenol/">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.7495 0L6.24951 0C2.79826 0 -0.000488281 2.79875 -0.000488281 6.25L-0.000488281 13.75C-0.000488281 17.2013 2.79826 20 6.24951 20L13.7495 20C17.2008 20 19.9995 17.2013 19.9995 13.75L19.9995 6.25C19.9995 2.79875 17.2008 0 13.7495 0ZM18.1245 13.75C18.1245 16.1625 16.162 18.125 13.7495 18.125L6.24951 18.125C3.83701 18.125 1.87451 16.1625 1.87451 13.75L1.87451 6.25C1.87451 3.8375 3.83701 1.875 6.24951 1.875L13.7495 1.875C16.162 1.875 18.1245 3.8375 18.1245 6.25L18.1245 13.75Z" fill="black"/>
+                        <path d="M9.99951 5C7.23826 5 4.99951 7.23875 4.99951 10C4.99951 12.7613 7.23826 15 9.99951 15C12.7608 15 14.9995 12.7613 14.9995 10C14.9995 7.23875 12.7608 5 9.99951 5ZM9.99951 13.125C8.27701 13.125 6.87451 11.7225 6.87451 10C6.87451 8.27625 8.27701 6.875 9.99951 6.875C11.722 6.875 13.1245 8.27625 13.1245 10C13.1245 11.7225 11.722 13.125 9.99951 13.125Z" fill="black"/>
+                        <path d="M15.3745 5.29123C15.7425 5.29123 16.0408 4.99295 16.0408 4.62499C16.0408 4.25703 15.7425 3.95874 15.3745 3.95874C15.0065 3.95874 14.7083 4.25703 14.7083 4.62499C14.7083 4.99295 15.0065 5.29123 15.3745 5.29123Z" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+
+    <section class="promo">
+        <div class="hamburger">
+            <span></span>
+            <span class="long"></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="title title_fz16 promo__subtitle">Моє ім'я Глова Олег</div>
+            <h1 class="title title_fz48 promo__title">Я web-розробник з міста Львів</h1>
+            <div class="promo__btns">
+                <a href="#skills" class="promo__link btn">Навички</a>
+                <a href="#about" class="promo__link">Про мене</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__photo">
+                    <img src="img/main_photo.jpg" alt="photo">
+                </div>
+                <div class="about__descr">
+                    <h2 class="title title_fz16 about__title">Про мене</h2>
+                    <div class="title title_fz36 about__subtitle">Мене звуть Глова Олег</div>
+                    <div class="divider"></div>
+                    <p class="about__text">Я навчаюсь на 4 курсі Національного університету «Львівська політехніка». Також у вільний час, займаюсь розробкою сайтів. Чому я обрав саме Front-End? Усе просто, я люблю приносити користь людям, а також видимий прогрес моєї роботи. Адже саме Front-End дозволяє, мені, втілити безліч ідей у життя. У мене непереборна жага до навчання, бажаю пізнавати щось нове та вдоксоналювати себе кожного дня.</p>
+                </div>
+                <div class="about__skills">
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle">
+                            <img src="icons/about_me/web_development.svg" alt="web-dev">
+                        </div>
+                        <div>
+                            <div class="title title_fz14">
+                                Web-розробка
+                            </div>
+                            <p class="about__skills-text">
+                                Я можу сказати, що це перш за все хобі. Не просто робота. Суть дизайну і програмування не у виконанні однотипних завдань. Цей вид діяльності потребує постійного розвитку і пошуку нових рішень. Саме тому, до нього не можна ставитися виключно як до роботи, його потрібно любити.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle">
+                            <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev">
+                        </div>
+                        <div>
+                            <div class="title title_fz14">
+                                Розробка програм
+                            </div>
+                            <p class="about__skills-text">
+                                Окрім роботи над сайтами, маю непереборне бажання пізнати світ мобільної розробки та в подальшому стати full stack developer. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title">Досвід</h2>
+            <div class="title title_fz36 title__section-subtitle">Чим я буду корисний</div>
+            <div class="divider"></div>
+            <div class="resume__wrapper">
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Освіта</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">ІППТ | Національний університет «Львівська політехніка»</h4>
+                                    <div class="resume__item-location">Диплом бакалавра | Львів (2016-2022)</div>
+                                </div>
+                                <p class="resume__item-body">
+                                    Освітньо-професійна програма
+                                    "Комп’ютерні науки"
+                                    першого (бакалаврського) рівня вищої освіти
+                                    за спеціальністю 122 «Комп’ютерні науки»
+                                    Галузь знань: 12 «Інформаційні технології»
+                                    Кваліфікація: бакалавр з комп’ютерних наук.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/courses.svg" alt="courses">
+                                    </div>
+                                    <h4 class="title title_fz14">Udemy, Владилен Мінін</h4>
+                                    <div class="resume__item-location">Курси по Web-розробці </div>
+                                </div>
+                                <p class="resume__item-body">
+                                    Курси для вдосконалення власних навичок у створенні адаптивних web сайтів. 
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Досвід роботи</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/developer.svg" alt="developer">
+                                    </div>
+                                    <h4 class="title title_fz14">Front-End Developer</h4>
+                                    <div class="resume__item-location">INTELLIAS | Львів</div>
+                                </div>
+                                <p class="resume__item-body">
+                                    to be continued...:)
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title">Навички</h2>
+            <div class="title title_fz36 title__section-subtitle">Що я використовую в роботі</div>
+            <div class="divider"></div>
+            <div class="skills__items">
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/html5.svg" alt="html5">
+                    </div>
+                    <h3 class="title title_fz14">HTML5</h3>
+                    <p>Саме він створює каркас вашого сайту або програми, а п'ята версія дозволить мені створювати більш SEO-оптимізовану структуру вашого продукту.</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/css3.svg" alt="css3">
+                    </div>
+                    <h3 class="title title_fz14">CSS3</h3>
+                    <p>Ця мова стилів дозволяє мені створювати абсолютно будь-який зовнішній вигляд вашого сайту або програми. Все обмежується лише вашою фантазією!</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/js.svg" alt="java script">
+                    </div>
+                    <h3 class="title title_fz14">Java Script</h3>
+                    <p>Ця мова програмування дозволяє оживити все, що завгодно: слайдери, вікна, підказки, вкладки, отримання даних від сервера та багато іншого.</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/jquery.svg" alt="Jquery">
+                    </div>
+                    <h3 class="title title_fz14">Jquery</h3>
+                    <p>Бібліотека Jquery дозволить прискорити розробку. Без необхідності інтегрувати в проект я її не буду, але звичка роботи з нею присутня.</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/react.svg" alt="React">
+                    </div>
+                    <h3 class="title title_fz14">React</h3>
+                    <p>Ця бібліотека дозволяє створювати веб-додатки. Я можу створити максимально інтерактивний продукт саме під ваші цілі.</p>
+                </div>
+            </div>
+            <div class="skills__ratings">
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Створення сайтів</div>
+                    <div class="skills__ratings-counter">65%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Створення програм</div>
+                    <div class="skills__ratings-counter">25%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Робота з данними</div>
+                    <div class="skills__ratings-counter">20%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Креативність</div>
+                    <div class="skills__ratings-counter">85%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Створення дизайну</div>
+                    <div class="skills__ratings-counter">75%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="skills__ratings-item">
+                    <div class="title title_fz14 skills__ratings-title">Soft skills</div>
+                    <div class="skills__ratings-counter">95%</div>
+                    <div class="skills__ratings-line">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/main_photo.jpg" alt="photo">
+                </div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title">Контакти</h2>
+                    <div class="title title_fz36 contacts__subtitle">Зв'яжіться зі мною</div>
+                    <div class="divider"></div>
+                    <div class="title title_fz14 contacts__text">
+                        Будь-яким зручним для вас способом:
+                    </div>
+                    <div class="contacts__social">
+                        <a href="https://github.com/HlovaOleh" class="contacts__link">
+                            <img src="icons/social/github-brands.svg" alt="github">
+                        </a>
+                        <a href="https://t.me/redmenol" class="contacts__link">
+                            <img src="icons/social/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="https://www.instagram.com/redmenol/" class="contacts__link">
+                            <img src="icons/social/instagram-brands.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="title title_fz14 contacts__text">
+                        Або залиште ваші дані і я сам вам напишу:
+                    </div>
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" id="name" type="text">
+                            <label for="name">Ваше ім'я</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input required name="phone" id="phone" type="phone">
+                            <label for="email">Ваш номер телефону</label>
+                            <p id="phoneErrorMessage" style="display: none; color: #F85C50;"></p>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Ваше повідомлення</label>
+                        </div>
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn" onclick="sendMessage(event)">Відправити повідомлення</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="js/services.js"></script>
+</body>
+</html>
